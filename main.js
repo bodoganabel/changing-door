@@ -2,7 +2,7 @@ function main() {
 
     let winNotChangingDoor = 0;
     let winChangingDoor = 0;
-    for (let i = 0; i < 20000; i++) {
+    for (let i = 0; i < 20000000; i++) {
         const door1 = 0.3333333333333;
         const door2 = 0.6666666666666;
         const door3 = 0.9999999999999;
@@ -51,7 +51,7 @@ function main() {
             choosenDoor = 3;
         }
 
-        if (i >= 10000) {
+        if (i >= 10000000) {
             // No switch
             if (choosenDoor === winningDoor) {
                 winNotChangingDoor++;
