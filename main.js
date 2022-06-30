@@ -61,8 +61,8 @@ function main() {
             if (choosenDoor === 1 && revealedDoor === 2) choosenDoor = 3;
             if (choosenDoor === 1 && revealedDoor === 3) choosenDoor = 2;
 
-            if (choosenDoor === 2 && revealedDoor === 1) choosenDoor = 1;
-            if (choosenDoor === 2 && revealedDoor === 3) choosenDoor = 3;
+            if (choosenDoor === 2 && revealedDoor === 1) choosenDoor = 3;
+            if (choosenDoor === 2 && revealedDoor === 3) choosenDoor = 1;
 
             if (choosenDoor === 3 && revealedDoor === 2) choosenDoor = 1;
             if (choosenDoor === 3 && revealedDoor === 1) choosenDoor = 2;
